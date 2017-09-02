@@ -1,0 +1,33 @@
+{
+  "name": "fb-public-photos-extracteur",
+  "version": "1.0.0",
+  "description": "extrait public photos de puits Facebook et t�l�chargez le puis Upload le � Firebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/er-rousy/Fb-public-photos-extracteur.git"
+  },
+  "keywords": [
+    "facebook",
+    "exporter",
+    "photos",
+    "firebase",
+    "api",
+    "key",
+    "token",
+    "app",
+    "facebook"
+  ],
+  "author": "fayssal errousy <fai_ssal@live.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/er-rousy/Fb-public-photos-extracteur/issues"
+  },
+  "homepage": "https://github.com/er-rousy/Fb-public-photos-extracteur#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
+}
