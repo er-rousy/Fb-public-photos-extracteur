@@ -4,7 +4,10 @@
   "description": "extrait public photos de puits Facebook et t�l�chargez le puis Upload le � Firebase.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start-back": "SET DEBUG=express:* & nodemon ./app/server.js",
+    "build-front": "webpack --progress --colors --watch --config ./webpack.config.js",
+    "build": "npm-run-all -p -r build-front start-back"
   },
   "repository": {
     "type": "git",

@@ -47,7 +47,7 @@ app.use(bodyParser.json());
 
 app.set('port', process.env.PORT || 8585);
 
-app.use(express.static(path.join(__dirname, './prod')));
+app.use(express.static(path.join(__dirname, './public')));
 
 // REGISTER OUR ROUTES -------------------------------
 // all of our routes will be prefixed with /api

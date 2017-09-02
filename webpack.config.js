@@ -1,6 +1,5 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const GoogleFontsPlugin = require('google-fonts-webpack-plugin')
 const webpack = require('webpack')
 
 var config = {
