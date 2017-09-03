@@ -1,0 +1,24 @@
+.conetnt h1 {
+    font-style: italic;
+    color: #deb416;
+}
+
+.conetnt {
+    text-align: center;
+}
+
+.user-info {
+    .profile-photo {
+        border-radius: 43px;
+    }
+
+    ul {
+        margin: 0;
+        list-style: none;
+    }
+
+    li > span {
+        
+        font-weight: 700;
+    }
+}

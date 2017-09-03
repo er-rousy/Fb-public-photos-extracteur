@@ -1,0 +1,50 @@
+// global style
+
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+$main-color: #deb416;
+
+body{
+    margin: 0;
+    color: #212121;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+    .top-nav {
+        background: $main-color;
+        box-shadow: 0 1px 4px #333;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        max-height: 62px;
+        ul{
+            margin: 0;
+            display: block;
+            top: 17px;
+            padding: 16px 15px ;
+            background: transparent;
+            box-shadow: none;
+            
+            li{
+                display: inline-block;
+                list-style: none;
+                padding: 0px 10px;
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 19px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    .conetnt {
+        padding-top: 64px;
+    }
+}

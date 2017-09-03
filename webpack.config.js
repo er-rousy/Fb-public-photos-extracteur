@@ -16,7 +16,7 @@ var config = {
       inline: true,
       port: 9000,
       hot: true,
-      contentBase: './dist'
+      contentBase: './public'
    },
    module: {
         // React/Babel ES6 loader
@@ -28,6 +28,15 @@ var config = {
                 query: {
                     presets: ['es2015', 'react']
                 }
+            },
+            {
+                test: /\.css$/,
+                loader: ['style-loader', 'css-loader'],
+                include: /flexboxgrid/
+            },
+            {
+                test: /\.scss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
    },
